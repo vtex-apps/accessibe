@@ -1,0 +1,18 @@
+{
+  "vendor": "vtex",
+  "name": "accessibe",
+  "version": "1.0.0",
+  "title": "accessiBe",
+  "description": "accessibBe",
+  "builders": {
+    "pixel": "0.x"
+  },
+  "mustUpdateAt": "2019-10-01",
+  "billingOptions": {
+    "termsURL": "",
+    "support": {
+      "url": "https://support.vtex.com/hc/requests"
+    },
+    "free": true
+  }
+}
