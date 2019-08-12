@@ -1,0 +1,45 @@
+<script>
+  (function(document, tag) {
+      var script = document.createElement(tag);
+      /*var usefulLinks = {{settings.usefulLinks}}
+      usefulLinks = usefulLinks || []
+      usefulLinks = usefulLinks.reduce(function(acc, link) {
+        acc[decodeURIComponent(link.about)] = decodeURI(link.url)
+        return acc
+      }, {})*/
+      var element = document.getElementsByTagName('body')[0];
+      script.src = 'https://acsbap.com/api/app/assets/js/acsb.js'; script.async = true; script.defer = true;
+      (typeof element === 'undefined' ? document.getElementsByTagName('html')[0] : element).appendChild(script);
+      script.onload = function() {
+          acsbJS.init({
+              statementLink     : '{{settings.statementLink}}',
+              feedbackLink      : '{{settings.feedbackLink}}',
+              footerHtml        : '{{settings.footerHtml}}',
+              hideMobile        : {{settings.hideMobile}},
+              hideTrigger       : {{settings.hideTrigger}},
+              handleJquery      : {{settings.handleJquery}},
+              language          : '{{settings.language}}',
+              position          : '{{settings.position}}',
+              leadColor         : decodeURIComponent('{{settings.leadColor}}'),
+              triggerColor      : decodeURIComponent('{{settings.triggerColor}}'),
+              triggerRadius     : decodeURIComponent('{{settings.triggerRadius}}'),
+              triggerPositionX  : '{{settings.triggerPositionX}}',
+              triggerPositionY  : '{{settings.triggerPositionY}}',
+              triggerIcon       : '{{settings.triggerIcon}}',
+              triggerSize       : '{{settings.triggerSize}}',
+              triggerOffsetX    : {{settings.triggerOffsetX}},
+              triggerOffsetY    : {{settings.triggerOffsetY}},
+              usefulLinks       : { },
+              mobile            : {
+                  triggerSize       : '{{settings.mobileTriggerSize}}',
+                  triggerPositionX  : '{{settings.mobileTriggerPositionX}}',
+                  triggerPositionY  : '{{settings.mobileTriggerPositionY}}',
+                  triggerOffsetX    : {{settings.mobileTriggerOffsetX}},
+                  triggerOffsetY    : {{settings.mobileTriggerOffsetY}},
+                  triggerRadius     : '{{settings.mobileTriggerRadius}}'
+              }
+          });
+      };
+  }(document, 'script'));
+  </script>
+  
