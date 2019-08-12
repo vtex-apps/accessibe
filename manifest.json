@@ -70,11 +70,6 @@
         "title": "Trigger Button Color",
         "default": "#146ff8"
       },
-      "handleJquery": {
-        "type": "boolean",
-        "title": "Handle jQuery?",
-        "default": true
-      },
       "position": {
         "type": "string",
         "title": "Interface Position",
@@ -301,7 +296,7 @@
             "url": {
               "type": "string",
               "default": "https://domain.com/about",
-              "title": "Url"
+              "title": "URL"
             }
           }
         }
