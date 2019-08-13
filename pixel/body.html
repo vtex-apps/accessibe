@@ -14,7 +14,7 @@
           acsbJS.init({
               statementLink     : decodeURIComponent('{{settings.statementLink}}'),
               feedbackLink      : decodeURIComponent('{{settings.feedbackLink}}'),
-              footerHtml        : '{{settings.footerHtml}}',
+              footerHtml        : decodeURIComponent('{{settings.footerHtml}}'),
               hideMobile        : {{settings.hideMobile}},
               hideTrigger       : {{settings.hideTrigger}},
               handleJquery      : true,
