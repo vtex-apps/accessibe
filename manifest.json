@@ -14,5 +14,294 @@
       "url": "https://support.vtex.com/hc/requests"
     },
     "free": true
-  }
+  },
+  "settingsSchema": {
+    "title": "accessiBe",
+    "type": "object",
+    "properties": {
+      "statementLink": {
+        "type": "string",
+        "title": "Accessibility Statement Link"
+      },
+      "feedbackLink": {
+        "type": "string",
+        "title": "Feedback Form Link"
+      },
+      "footerHtml": {
+        "type": "string",
+        "title": "Interface Footer"
+      },
+      "language": {
+        "type": "string",
+        "title": "Interface Language",
+        "default": "en",
+        "enum": [
+          "en",
+          "es",
+          "fr",
+          "de",
+          "it",
+          "pt",
+          "nl",
+          "he",
+          "ru",
+          "ar"
+        ],
+        "enumNames": [
+          "English",
+          "Español",
+          "Français",
+          "Deutsche",
+          "Italiano",
+          "Português",
+          "Nederlands",
+          "עברית",
+          "русский",
+          "عربى"
+        ]
+      },
+      "leadColor":{
+        "type": "string",
+        "title": "Interface Lead Color",
+        "default": "#146ff8"
+      },
+      "triggerColor":{
+        "type": "string",
+        "title": "Trigger Button Color",
+        "default": "#146ff8"
+      },
+      "position": {
+        "type": "string",
+        "title": "Interface Position",
+        "default": "left",
+        "enum": [
+          "left",
+          "right"
+        ],
+        "enumNames": [
+          "Left",
+          "Right"
+        ]
+      },
+      "hideMobile": {
+        "type": "boolean",
+        "title": "Hide on Mobile?",
+        "default": false
+      },
+      "triggerPositionX": {
+        "type": "string",
+        "title": "Trigger Horizontal Position",
+        "default": "left",
+        "enum": [
+          "left",
+          "right"
+        ],
+        "enumNames": [
+          "Left",
+          "Right"
+        ]
+      },
+      "triggerPositionY": {
+        "type": "string",
+        "title": "Trigger Vertical Position",
+        "default": "bottom",
+        "enum": [
+          "top",
+          "center",
+          "bottom"
+        ],
+        "enumNames": [
+          "Top",
+          "Center",
+          "Bottom"
+        ]
+      },
+      "mobileTriggerPositionX": {
+        "type": "string",
+        "title": "Mobile Trigger Horizontal Position",
+        "default": "left",
+        "enum": [
+          "left",
+          "right"
+        ],
+        "enumNames": [
+          "Left",
+          "Right"
+        ]
+      },
+      "mobileTriggerPositionY": {
+        "type": "string",
+        "title": "Mobile Trigger Vertical Position",
+        "default": "center",
+        "enum": [
+          "top",
+          "center",
+          "bottom"
+        ],
+        "enumNames": [
+          "Top",
+          "Center",
+          "Bottom"
+        ]
+      },
+      "triggerSize": {
+        "type": "string",
+        "title": "Trigger Button Size",
+        "default": "medium",
+        "enum": [
+          "small",
+          "medium",
+          "big"
+        ],
+        "enumNames": [
+          "Small",
+          "Medium",
+          "Big"
+        ]
+      },
+      "mobileTriggerSize": {
+        "type": "string",
+        "title": "Mobile Trigger Size",
+        "default": "small",
+        "enum": [
+          "small",
+          "medium",
+          "big"
+        ],
+        "enumNames": [
+          "Small",
+          "Medium",
+          "Big"
+        ]
+      },
+      "triggerRadius": {
+        "type": "string",
+        "title": "Trigger Button Shape",
+        "default": "50%",
+        "enum": [
+          "50%",
+          "0",
+          "10px",
+          "5px"
+        ],
+        "enumNames": [
+          "Round",
+          "Square",
+          "Squircle Big",
+          "Squircle Small"
+        ]
+      },
+      "mobileTriggerRadius": {
+        "type": "string",
+        "title": "Mobile Trigger Shape",
+        "default": "0",
+        "enum": [
+          "50%",
+          "0",
+          "10px",
+          "5px"
+        ],
+        "enumNames": [
+          "Round",
+          "Square",
+          "Squircle Big",
+          "Squircle Small"
+        ]
+      },
+      "hideTrigger": {
+        "type": "boolean",
+        "title": "Hide Trigger Button",
+        "default": false
+      },
+      "triggerIcon": {
+        "type": "string",
+        "title": "Trigger Button Icon",
+        "default": "default",
+        "enum": [
+          "default",
+          "display",
+          "display2",
+          "display3",
+          "help",
+          "help2",
+          "people",
+          "people2",
+          "people3",
+          "people4",
+          "settings",
+          "settings2",
+          "settings3",
+          "wheel_chair",
+          "wheel_chair2",
+          "wheel_chair3",
+          "wheel_chair4",
+          "wheel_chair5",
+          "wheel_chair6",
+          "wheel_chair7"
+        ],
+        "enumNames": [
+          "default",
+          "display",
+          "display2",
+          "display3",
+          "help",
+          "help2",
+          "people",
+          "people2",
+          "people3",
+          "people4",
+          "settings",
+          "settings2",
+          "settings3",
+          "wheel_chair",
+          "wheel_chair2",
+          "wheel_chair3",
+          "wheel_chair4",
+          "wheel_chair5",
+          "wheel_chair6",
+          "wheel_chair7"
+        ]
+      },
+      "triggerOffsetX": {
+        "type": "number",
+        "title": "Trigger Horizontal Offset",
+        "default": 20
+      },
+      "triggerOffsetY": {
+        "type": "number",
+        "title": "Trigger Vertical Offset",
+        "default": 20
+      },
+      "mobileTriggerOffsetX": {
+        "type": "number",
+        "title": "Mobile Trigger Horizontal Offset",
+        "default": 0
+      },
+      "mobileTriggerOffsetY": {
+        "type": "number",
+        "title": "Mobile Trigger Vertical Offset",
+        "default": 0
+      },
+      "usefulLinks": {
+        "type": "array",
+        "title": "Useful Website Links",
+        "items": {
+          "type": "object",
+          "properties": {
+            "about": {
+              "type": "string",
+              "default": "About",
+              "title": "Label"
+            },
+            "url": {
+              "type": "string",
+              "default": "https://domain.com/about",
+              "title": "URL"
+            }
+          }
+        }
+      }
+    }
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
