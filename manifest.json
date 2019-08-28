@@ -5,7 +5,8 @@
   "title": "accessiBe",
   "description": "accessibBe",
   "builders": {
-    "pixel": "0.x"
+    "pixel": "0.x",
+    "docs": "0.x"
   },
   "mustUpdateAt": "2019-10-01",
   "billingOptions": {
@@ -49,23 +50,23 @@
         ],
         "enumNames": [
           "English",
-          "Español",
-          "Français",
+          "Espa�ol",
+          "Fran�ais",
           "Deutsche",
           "Italiano",
-          "Português",
+          "Portugu�s",
           "Nederlands",
-          "עברית",
-          "русский",
-          "عربى"
+          "�����",
+          "@CAA:89",
+          "91(I"
         ]
       },
-      "leadColor":{
+      "leadColor": {
         "type": "string",
         "title": "Interface Lead Color",
         "default": "#146ff8"
       },
-      "triggerColor":{
+      "triggerColor": {
         "type": "string",
         "title": "Trigger Button Color",
         "default": "#146ff8"
