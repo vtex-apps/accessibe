@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "accessibe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "accessiBe",
   "description": "accessibBe",
   "builders": {
@@ -60,12 +60,12 @@
           "عربى"
         ]
       },
-      "leadColor":{
+      "leadColor": {
         "type": "string",
         "title": "Interface Lead Color",
         "default": "#146ff8"
       },
-      "triggerColor":{
+      "triggerColor": {
         "type": "string",
         "title": "Trigger Button Color",
         "default": "#146ff8"
