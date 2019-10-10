@@ -1,7 +1,12 @@
 <script>
   (function(document, tag) {
       var script = document.createElement(tag);
-      var usefulLinks = JSON.parse(decodeURIComponent('{{settings.usefulLinks}}'))
+      var usefulLinks
+      try {
+        usefulLinks = JSON.parse(decodeURIComponent('{{settings.usefulLinks}}'))
+      } catch {
+        usefulLinks = ''
+      }
       usefulLinks = usefulLinks || []
       usefulLinks = usefulLinks.reduce(function(acc, link) {
         acc[link.about] = link.url
