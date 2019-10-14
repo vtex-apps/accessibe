@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "accessibe",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "title": "accessiBe",
   "description": "accessibBe",
   "builders": {
@@ -50,13 +50,13 @@
         ],
         "enumNames": [
           "English",
-          "Español",
-          "Français",
+          "EspaÃ±ol",
+          "FranÃ§ais",
           "Deutsche",
           "Italiano",
-          "Português",
+          "PortuguÃªs",
           "Nederlands",
-          "âÑèÙê",
+          "Ã¢Ã‘Ã¨Ã™Ãª",
           "@CAA:89",
           "91(I"
         ]
