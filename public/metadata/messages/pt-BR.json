@@ -1,0 +1,15 @@
+{
+    "name": "accessiBe Pixel",
+      "headline": "Torne a sua loja acessível para todos os públicos e adeque-se aos termos de compliance da ADA e da WCAG.",
+    "overview": "O accessiBe é um serviço que implementa as diretrizes de acessibilidade da ADA e da WCAG, tornando a sua loja compliant com estes parâmetros internacionais para evitar descumprimento legal e aumentar o público que você pode atender sem fricção. Este app adiciona o código da accessiBe ao seu site, exibe um botão de configurações de acessibilidade para os seus usuários e integra a ferramenta à VTEX.",
+    "features": [
+      "Configure a implementação do accessiBe pelo admin da VTEX",
+      "Mostre um botão de configurações de acessibilidade em todas as páginas do seu site",
+      "Esteja adequado às diretrizes de compliance da ADA e da WCAG"
+    ],
+      "additionalInformation": "A gestão dos parâmetros de acessibilidade é feita diretamente pela platafoma da accessiBe (https://accessibe.com/) após a instalação e configuração do app.",
+    "websiteURL": "https://vtex.com/",
+    "support": {
+        "url": "https://support.vtex.com/hc/requests"
+      }
+  }
