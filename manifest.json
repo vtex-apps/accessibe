@@ -10,11 +10,13 @@
   },
   "mustUpdateAt": "2019-10-01",
   "billingOptions": {
-    "termsURL": "",
+    "type": "free",
     "support": {
       "url": "https://support.vtex.com/hc/requests"
     },
-    "free": true
+    "availableCountries": [
+      "*"
+    ]
   },
   "settingsSchema": {
     "title": "accessiBe",
