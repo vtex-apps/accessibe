@@ -3,6 +3,7 @@
 This app adds pixel code to your VTEX IO store to show a component in the storefront, enabling users to modify your site’s UI, design, and readability to meet their individual needs following ADA and WCAG accessibility guidelines.
 
 
+
 ## Installation
 
 To install the accessiBe app:
@@ -17,6 +18,7 @@ You will be redirected to your store’s accessiBe settings page. After installi
 > ⚠️ *You need to have an accessiBe paid account to be able to use the app*
 
 After installing and adding your VTEX store URL on the accessiBe website, the accessibility button will be available on your store with the default configuration.
+
 
 
 ## Configuration
@@ -52,6 +54,7 @@ You can configure the accessiBe button and interface. To configure the accessiBe
     *   **Useful Website Links**: add a helpful website link. Click on _+ ADD MORE_, insert a label and the form URL.
 
 Once saved, all your configuration choices will be applied to the component in your store.
+
 
 
 ## Deletion and uninstall
